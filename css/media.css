@@ -1,11 +1,12 @@
 @media only screen and  (max-width:600px){
     body{
         width:100%;
-        background-color: blue;
+       
     }
     .main-intro img{
-          width:492px;
+          width:477px;
           height:245px;
+          box-shadow:10px 5px 5px grey ;
     }
     a{
         display: none;
@@ -13,7 +14,13 @@
     .logo{
         margin-top: -350px;
         margin-right: 100px;
-     
+       list-style: none;
+    }
+    .logoName{
+        margin-top: -360px;
+        margin-left: -360px;
+        font-weight: bolder;
+        font-size: smaller;
     }
     header{
       height:100px;
@@ -21,7 +28,7 @@
 
     }
     .main-One{
-        border: 3px solid yellow;
+        /* border: 3px solid yellow;  */
         height:250px;
         width:100%;
         display: flex;
@@ -32,35 +39,199 @@
 
     }
     .main-intro{
-        height:500px;
+        height:588px;
         position: relative;
         width: 100%;
-        border:3px solid green;
+        /* border:3px solid green;  */
         display: flex;
         flex-direction: column;
         margin-top: -320px;
     }
     .main-intro-One h1{
-        font-size: 220%;
+        font-size: 250%;
         text-align: center;
+        margin-top: 30px;
+        text-decoration: overline
+    }
+    .main-intro-One span{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .main-intro-One input{
+        width:60%;
+        margin:90px;
+        margin-left: 100px;
+        margin-bottom: 30px;
         margin-top: 50px;
+        height: 30px;
+        border: 1px solid #E4E4E4;
+        background-color: #E4E4E4;
+        border-radius: 20px 20px;
+        text-align: center;
+    }
+    .searchbarimg{
+       display: none;
+    }
+    button{
+           width: 20%;
+           height: 30px;
+           border: none;
+           border-radius: 20px 20px;
+            margin-left: 185px;
+            margin-bottom: 20px;
+           background: black;
+           color: white;
+    }
+    button:hover{
+        background-color: #7271C1;
     }
     .main-intro-One{
-        height:700px;
+        height:330px;
         position: relative;
         width: 100%;
-        border:3px solid red;
+        /* border:3px solid red; */
         display: flex;
         flex-direction: column;
+        background-image: url("img/r-architecture-2gDwlIim3Uw-unsplash.jpg");
        
+    }
+    .view{
+        display:flex;
+        flex-direction: column;
+        /* border:3px solid blue; */
+        height:700px;
+        width:100%;
+        background-color: black;
+    }
+    .view img{
+        height:600px;
+        width:400px;
+    }
+    .overlay{
+        z-index:7;
+        position:absolute;
+        background-color: #7271C1;
+        box-shadow:7px 2px 2px #E4E4E4;
+    
+        width:50%;
+        height:70px;
+        display:flex;
+        flex-direction: column;
+        margin-left:240px;
+        margin-top:200px;
+    }
+    .overlay-two{
+        z-index:7;
+        position:absolute;
+        width:200px;
+        height:50px;
+        display:flex;
+        flex-direction: column;
+        margin-left:80px;
+        box-shadow:10px 5px 5px black ;
+        margin-top:-80px;
+    }
+    .overlay-two img{
+        box-shadow:10px 5px 5px   grey ;
+    }
+    .overlay span{
+        font-weight: bolder;
+        font-size: smaller;
+        text-align: center;
+        margin:10px;
+        text-decoration: underline;
+    }
+    .overlay span + span{
+        margin-top:2px;
+        font-size: x-small;
+        text-decoration: none;
     }
     .about{
         height:300px;
         position: relative;
         width: 100%;
-        border:3px solid purple;
+        /* border:3px solid purple;   */
         display: flex;
         flex-direction: column;
+        margin-top:5px;
+        background-color: black;
+        color:white;
     
+    }
+    .about h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .about p{
+        font-size: small;
+        margin-top: 50px;
+        text-align: center;
+        margin: 20px;
+        margin-right:80px;
+        margin-left:80px;
+    }
+    .agents{
+        height: 500px;
+        /* border:3px solid red; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #7271C1;
+     
+    }
+    .agent-One{
+        height:300px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .agent-One img{
+       height:180px;
+       width:230px;
+     
+      margin-top: 30px;
+      margin-left:110px;
+    
+    }
+    .agent-One  h1{
+        margin-top: 30px;
+        margin-left: 130px;
+        font-size: xx-large;
+    }
+    .agent-One p{
+        margin:50px;
+    }
+    footer{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width:100%;
+    }
+    footer img{
+        height:30px;
+        width:30px;
+        display: inline-block;
+
+        margin: 10px;
+        margin-left:40px;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+    .social-media {
+        height:100px;
+        width:100%;
+        /* border:3px solid red; */
+        margin-top:70px;
+    }
+    footer span{
+        margin:-55px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .logo-footer{
+        height:150px;
+        width:150px;
+        margin-left:150px;
     }
 }

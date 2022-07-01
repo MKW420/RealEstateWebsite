@@ -23,7 +23,7 @@
 body{
     display: flex;
     flex-direction: column;
-    height:100vh;
+   
     width: 100%;
     transition: .3s;
     font-family: var(--font-family);
@@ -84,4 +84,7 @@ header li > a:after{
 
 header-menu li > a:hover{
     cursor: pointer;
+}
+.main-intro-One span{
+   font-style: italic;
 }

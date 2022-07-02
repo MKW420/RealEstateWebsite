@@ -32,59 +32,139 @@ body{
      --font-family: 'Roboto', sans-serif;
 
 }
+@media screen  and (max-width:1900px){
+    
 
-a{
-    text-decoration: none;
-    color: black;
-}
-ul{
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    ul{
+        list-style: none;
+    }
+    nav{
+    
+        padding:0 10px;
+        width:100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    header{
+        padding:23px 0;
+        background:white;
+        box-shadow: 2px 2px 10px rgba(0,0,0,.1);
+        position:absolute;
+        transition: .3s;
+        top:0;
+        left:0;
+        width:100%;
+        height:100px;
+        white-space: nowrap;
+    }
+    li{
+        list-style: none;
+    }
+    header ul > li {
+        display: inline-block;
+        margin:80px;
+        margin-top: -30px;
+        justify-items: end;
+       visibility: visible;
+    }
+    header ul li > a{
+        line-height: 100px;
+        font-size:18px;
+        display: inline-flex;
+        position: relative;
+        transition: 1s;
+        margin-left:-800px;
+        visibility: visible;
+    }
+    
+
+    header li > a:after{
+        content: '';
+        position: absolute;
+        left:0;
+        bottom:-10px;
+        width:0;
+        height:4px;
+        background:black;
+        border-radius: 2px;
+    }
+
+    header-menu li > a:hover{
+        cursor: pointer;
+    }
+    .main-intro-One span{
+    font-style: italic;
+    }
+    .main-two{
+        visibility: visible;
+        border: 3px solid blue;
+        display: flex;
+        flex-direction: row;
+       
+        width: 50%;
+        height:450px;
+    }
+    .logo{
+    
+        margin: 10px;
     list-style: none;
-}
-nav{
-    max-width: 1100px;
-    padding:0 10px;
-    width:100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+        margin-top: -100px;
+    }
+    .logoName{
+    visibility: hidden;
+    }
+    .menu > img{
+   visibility: hidden;
+    
+    }
+    .main-One {
+        visibility: hidden;
+    }
+    .main-intro{
+        height:500px;
+        width:100%;
+        display: flex;
+            flex-direction: column;
+            margin-top: -80px;
+            
+    }
+    .main-intro-One{
+        height:500px;
+        position: relative;
+        width: 100%;
+        /* border:3px solid red; */
+        display: flex;
+        flex-direction: column;
+    background-color: #7271C1;
+      
+  
+        
+    }
+    .main-intro-One h1{
+        font-size: 350%;
+        text-align: center;
+        margin-top: 30px;
+        text-decoration: overline
+    }
+    .main-intro-One span{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .main-intro-One input{
+       visibility: hidden;
+    }
+    button{
+        visibility: hidden;
+    }
+    button:hover{
+    background-color: #7271C1;
+    }
 
-}
-header{
-    padding:23px 0;
-    background:white;
-    box-shadow: 2px 2px 10px rgba(0,0,0,.1);
-    position: sticky;
-    transition: .3s;
-    top:0;
-    left:0;
-    width:100%;
-    height:100px;
-}
-
-header li > a{
-    line-height: 100px;
-    font-size:18px;
-    display: inline-flex;
-    position: relative;
-    transition: 1s;
-    margin-left:-800px;
-}
-
-header li > a:after{
-    content: '';
-    position: absolute;
-    left:0;
-    bottom:-10px;
-    width:0;
-    height:4px;
-    background:black;
-    border-radius: 2px;
-}
-
-header-menu li > a:hover{
-    cursor: pointer;
-}
-.main-intro-One span{
-   font-style: italic;
 }

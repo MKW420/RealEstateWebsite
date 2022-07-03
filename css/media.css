@@ -93,6 +93,10 @@
     .main-intro img{
 
     }
+    .main-intro-One{
+        background-color: white;
+
+    }
     .main-intro{
         height:588px;
         position: relative;
@@ -100,7 +104,7 @@
         /* border:3px solid green;  */
         display: flex;
         flex-direction: column;
-        margin-top: 5px;
+        margin-top: 80px;
     }
     .main-intro-One h1{
         font-size: 250%;
@@ -113,6 +117,7 @@
         margin-top: 15px;
     }
     .main-intro-One input{
+        visibility: visible;
         width:60%;
         margin:90px;
         margin-left: 100px;
@@ -128,6 +133,7 @@
        display: none;
     }
     button{
+        visibility: visible;
            width: 20%;
            height: 30px;
            border: none;

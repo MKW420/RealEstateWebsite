@@ -10,6 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="img/minimal_real_estate_logo_ECP_icon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
     <title>RFX Nests:Real Estate</title>
 </head>
 <body>
@@ -37,47 +43,76 @@
             
              <button>SEARCH</button>
             </div>
-        <div class= "main-One">
+        <!-- <div class= "main-One">
             <div class="overlay">
                 <span>LISTING IN BRAXTON TOWN</span>
                 <span>$150 000 000</span>
             </div>
             <img src="img/r-architecture-2gDwlIim3Uw-unsplash.jpg"> 
            
-        </div>
-        <div class="main-two">
-            new
-        </div>
+        </div> -->
+        
 
      </section>
-      <section class="about">
-      <h1>ABOUT US</h1>
-       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sunt earum impedit necessitatibu Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dolores hic unde molestias expedita tenetur ipsa, a saepe adipisci delectus.s?</p>
-
-      </section>
+    
       <section class="view">
-        <div class="overlay-two">
-            <img src="img/alona-gross-GwemUomHr5A-unsplash.jpg">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+          <div class="slide first">
+            <img src="img/alona-gross-GwemUomHr5A-unsplash.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/alona-gross-awlIw6br-YI-unsplash.jpg" alt="">
+          </div>
+          <div class="slide ">
+            <img src="img/alona-gross-Coj5dSxgh0Y-unsplash.jpg">
+          </div>
+         <!--automatic navigation-->
+         <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+         </div>
+
         </div>
-          <img src="img/alona-gross-y0Zlus5aCYI-unsplash.jpg">
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+
+          
+        </div>
+         
       </section>
+      <section class="about">
+        <h1>ABOUT US</h1>
+         <p>Redfox Nests is 12 years old! This real estate company has been running </p>
+  
+        </section>
       <section class="view-two">
    
        <div class="item">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAD6UlEQVRoge3a34tVVRQH8M/UNHewH+aMNvkwlRCEGCb0EoRRD5VSFgn9MMOHCvLJwofqLeghe5bxof6KCFQsKiYNmmqsHirHqQi0gX4hFpplcHvY+3jO5Jl77/lxz0zgFzabe/baa3332Xuvs/bal0tYWhhowEYbf+MMfsL3+BpH8CFONcChFrQ7lH9wCE+htVgEe0VC+hZsxNOYwJfmD+pH7Mbw4tDsjoRoHm7Ay/guI/ctNjdDrRg6DSTBZdiO2Yz8PktsdnoZSIIWXhWcQxufYqxPvAqjyEAS3IGTsd8s1lQlsRozeKuCjjIDgeulDmFWhZlZJkxtG/vLKlF+IDCCaekyK7Vn3pS+jZUlicBh4cNXFqvxg9QBFMKW2PEsbq1Aoi7cjr8ETpt67TQshBFtPN8fXqXwonSF9LTEkg6f4/IOck9o1jVega8Ebi90E25hLgrf20V2DMexoyLBInhQ4HZSl9hsRxSc7lFxIn8A4xUI9ooBqUt+spPgoSj0TAHlB2Kf09ip/0eD56K9gwsJjAph9TlcW0DxuDCI5HvxHm4qTbM7RgUPdh7L8wS2RiLvllC+0/yQ/AxeEoLBfmAy2tmSPMgaujPWh0sofgPvZ34vw+vC9Pdj73wQ6415jclaf6ik8hvxu4tPgafxeEmdC+GRqPvtvMbjsXFtBQPJRswrExiqoDuLdVHnsbzG32LjigoGBqSeL6/sqaA7i9Go75e8xiSWqfrWxoXMSN5A5irqTjAU9Z1LHvTDq5zAswu0lQ3n/4uO36pfo6HRmoxNuHhGXqtJ90odllYdmz2LIWFPzMWyR0ObfX9sfLgmY/1E8vG+4H6ze+SbWN/WJKOSWB/rCzOSHciRWN/dGJ3yuCfWuUfoFcoFjU1jRBo0XpM8zM7IKSFybeHRRqkVw2OC03hHCIlysV3YRJ81RKooBnBU4Litk2BLmuG7v/+8CiM56p7QwzXE7ih8VOfkQ9MYlB5zd/XSYVhI7S+1dFDygmcUuBTaLE3Qre8i2wQ24E+B031FO++TvoG64q8yWCW9N9lbRsGwNIn9Ma6sjVrvuApTkcOUCveMq4QwoI1P4u+mMIKPpNdxlbOaa6RTO6OZWGxDxuZxNaaXxqTL7KyQex2sS3kGg4J3Sjb2FK6r28iw1AG08YX6bl8H8ID5V9Z79fnufZP5t6/TQvakTNJiREjuJWFHspQKu9iyGBaWVxLOtIWIdBKvCHmndYLbHoplVLg02hplJqUJjyTs2GWR/gHRErLiB4UjQKe/a+SV88LJdJuKA6gzc74cdwlpzLW4WXDXV8f2P/Cz4EqPCanZSR1C8Uv4P+NfWOkxc7+CZd0AAAAASUVORK5CYII="><h2>Save your time and money with us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quaerat nostrum, voluptatibus maiores doloribus praesentium a? Nihil aliquam soluta molestiae!</p>
-    
+        <p>Our agents are ready to help you find your home!</p>
+         <button>Click</button>
     
     </div>
        <div class="item">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAFT0lEQVR4nO2aTYgcRRTHfzGjDnjYGIkXdxccQRF1BhJxoyuSEXMWzLqYQ06CYASDIOTgwfWmIIhhXdCDXkRNNqIXT4o7qEH8TsKuuMEoZBMPJuu6KmhwN+PhvXZqeqr6o7p7ZtjMH4qufl39qrr61b/qvSoYYIAseAFYBR7sdUMc2AJ8DywAQ0VU8BPQBF4vQnkOuA9pX1PzHbgiYwWbQtd+w5qR/zcvpc8DPwKnVWkT+EPvfwAm8qrIE1uAOnAvUAamNZVVVtcy3lilZVa29H4W5TlgwWjLtCGfMeTzgdBnCOwDXtP0p8pO6f0M8IyHzgBxpPUE8Bew30N305G3ooR8zCuad+FnVfaGR4NsiCOto/rsSISOIcTMxxGzD76jrLI6CWaEHUZDtkeUW9Qyr8YpTIhdRr27LM9vAJ7SaxLcY+i7O01DSrTII8oCJpAxf1uEnjtjdJiI64C0iJ0Gi0ZAPNNxBRV5d8AQwifzOMw+6Z/xRSzZFIxV3NbZFZQQDunVEIhFFgsoA48CXwNfOMqsAd9G6HgYqBj3Zn4vMGbcn0Zmga5hVJMLTyJ/6oKn/irRCypbusOzLidcFjCKTHEANwNLljJb9XqdZ91b44t0wLcuJ1wrwQpi4mXgprwrtaCOOFS2VM+gN9YddlnAb0Z+OUMDeo1h4FYjvxouYHbAGMK868A7CEE1gRXgaWAz0MBNeP2IeVrfsWArYHbAB7TG2Ji+CMK8ezR/AdiWogElYCcylMKoGflHgLscOsyZYQedVnseOBHRhsQzx1vI378IPG7I96tsHXjTkE/RYmcXTBe0yBT8rNyQJJaWpAPm6E4HTHl9JW4SrNIijxrwiW8FihMIj4SxDRhJqGMJMXcTH2ZpFLg7IO9Y2grwUQ56coerA75EgggAXxVQ507gSuA74HfjWQ2xilPAGUM+iizI4givq0jDAXOGzBqbAyYN+d+0hsao3tsILzMHZA2L+8AVm0sas7M9e5ZokixkY8TXAkq4Y3NV4AE6iXFE5dWQPM1MYY0IJXGHh5GFyuaQfNzIH3S8G3iTVxuyNeCYo/xJh3wJu0MW4BjwmaP+vZr3tvZ3yT5P/2roK+HeoKghfzrsho+qvBaSx3FALgGWPBYzi4a+bpJgbAekMYsGbpfVlRr67i+hRqfJhxH1LDWKDoracADxO66iPVw2i5j49YjFBGP+DLIGuAUZSi6e8IJvBwwjJnsEOBshs6EIEvSGbwe8DDyE7LxMRMhcdfbNStC3A2zxwKQxwkO03O0F4HbNTwKHNf8PrVhkEJ8sG+VmvVptwUZZCXrD1wKCmOFyjMyGIkhwH+0LswDXGvkXEa8U4D1kOm472hLEBMN4DAlLfY6Mb5Dd2YDwzkXI5lRng2zRXRd8reEiOqTMDlgmOlZ/Hvk7aWDrgDxJMOiAFeAbS/2b9D1U5420Yowd55rSrOaSolvucINk6HDgbCT4HPGrOdtRlaTHV/qKBH1ngT3ANbTP9zaZDQcQZ+h+vQYISHA3QnhhEtytz3PdIPWdBWznA5OeGdwQK8Fm6OqSuersm5Wg7xA4ioz32RiZDYeAT4GPaQ9iTALHkVD3Iu0kuKjy4+S8CeJrATOa4mQ29BUJDtxhz/cG7jADdxgYuMNe2BAk2G/ucJVkO8WVqIeuELPNobEdWrbJbO/miSyhesDfAs4BLyWQdQsudziMCiEr6MU6oAicRJylOEwhG6n/oxck2Fe47DvANgTGad/tDTYqq8i5/zQrsuDdCu4d5DwwklB/R+DU9N3XuXws4hK63W9+8GF9sNFxCXi7140YoF/wH+CSQ2Zto5HYAAAAAElFTkSuQmCC">
         <h2>Apartments in top cities</h2>  
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti minima omnis quisquam pariatur velit ad maiores. Sunt sequi accusamus eius.</p>
+        <p>We find listings in all top cities!</p>
     </div>
     <div class="item">
         <img src="https://img.icons8.com/carbon-copy/100/000000/person-male.png"/>
         <h2>Get matched with an agent</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur doloremque impedit beatae quasi tempore quod, debitis porro doloribus rerum perferendis.</p>
+        <p>We Match you to an agent who understands you!</p>
     </div>
        
 
@@ -90,10 +125,16 @@
       <section class="agents">
         <div class="agent-One">
             <h1>MEET NATHAN</h1>
+            <h2>The founder of REDFOX NESTS</h2>
             <img src="img/aatik-tasneem-7omHUGhhmZ0-unsplash.jpg">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore vero facere maxime tempora dolore nemo fugit, sunt fuga minus doloremque quam eligendi veritatis, corporis animi quidem incidunt temporibus at nobis quos magnam nostrum. Ab minima doloremque, labore delectus soluta sit, amet dolor mollitia voluptate suscipit deserunt magnam harum, cupiditate commodi?</p>
+            <p>Hi There! I am Nathan Solvendor and I welcome you to the Redfox Nests family! <br><br>Redfox was founded in 2009, and ever since has grown and has been <br>voted as one of the top 5 successful Real estate company. Our agents <br>are highly exprienced and are determined to will help find your dream<br> home.</p>
+      
+        </div>
+       
       </section>
-    
+      <!-- <section class="agent-Two">
+            
+      </section> -->
  <footer>
     <img class="logo-footer" src="img/Minimal Real Estate Logo.png">
     <span>FIND US ON THESE PLATFORMS</span>
@@ -106,6 +147,6 @@
     </div>
    <span class="btm">REDFOX NESTS</span>
 </footer>
-   
+   <script  type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

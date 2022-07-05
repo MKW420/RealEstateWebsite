@@ -22,58 +22,71 @@
     <header class="clear">
 
         <nav class="header-menu">
-            
+          <!-- <div class="navbar">
+            <div class="container nav-container"></div> -->
            
             <li class="logo"><img src="img/Minimal Real Estate Logo.png" height="100px" width="100px" ></li>
             <span  class="logoName">REDFOX NESTS</span>
-            <li class="menu"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAKElEQVRIiWNgGAXDHjAisf/TwmwmKhs6CgYhGE1Fo4ByMJqKRsEQAADWCQMKYvEFtQAAAABJRU5ErkJggg=="></li>
-            <ul>
+            <input type="checkbox" id="check1" class="nav-toggle" for="menu">
+            <div class="hb-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div> 
+            <ul class="links">
              <li><a href="#">HOME</a></li>
              <li><a  href="#about">ABOUT</a></li>
              <li><a>LISTINGS</a></li>
              <li><a>FIND US</a></li>
 
           </ul>
+        <!-- </div>
+      </div> -->
        </nav>
      <section class="main-intro">
         <div class="main-intro-One">
              <h1>LUXURY <br> DESIGNED HOMES</h1>
              <span>Find your perfect home.</span>
-             <input type="text" placeholder="search your area...">
+             <!-- <input type="text" placeholder="search your area..."> -->
             
              <button>SEARCH</button>
             </div>
            
-        <!-- <div class= "main-One">
-            <div class="overlay">
-                <span>LISTING IN BRAXTON TOWN</span>
-                <span>$150 000 000</span>
-            </div>
-            
-           
-        </div> -->
         
 
      </section>
-  
+     <section class="about" id="about">
+      <h1>ABOUT US</h1>
+       <p>Redfox Nests is 12 years old! This real estate company has been running </p>
+       <button>click</button>
+      </section>
+      
+
+
+
+
       <section class="view">
         <div class="slides">
             <input type="radio" name="radio-btn" id="radio1">
             <input type="radio" name="radio-btn" id="radio2">
             <input type="radio" name="radio-btn" id="radio3">
             <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
 
           <div class="slide first">
-            <img src="img/alona-gross-GwemUomHr5A-unsplash.jpg" alt="">
+            <img src="img/sophie-peng-HaP28Y3ZGSg-unsplash.jpg" alt="">
           </div>
           <div class="slide">
-            <img src="img/alona-gross-awlIw6br-YI-unsplash.jpg" alt="">
+            <img src="img/md-shahareyar-yunus-YsKXh5IsebY-unsplash.jpg" alt="">
           </div>
           <div class="slide ">
-            <img src="img/alona-gross-Coj5dSxgh0Y-unsplash.jpg">
+            <img src="img/max-harlynking-7ptbiEPxKMQ-unsplash.jpg">
           </div>
           <div class="slide ">
-            <img src="img/alona-gross-WKO_Ke5oDhw-unsplash.jpg">
+            <img src="img/naomi-ellsworth-EMPLSuvDuhQ-unsplash.jpg">
+          </div>
+          <div class="slide ">
+            <img src="img/ralph-ravi-kayden-mR1CIDduGLc-unsplash.jpg">
           </div>
          <!--automatic navigation-->
          <div class="nav-auto">
@@ -81,6 +94,7 @@
             <div class="auto-btn2"></div>
             <div class="auto-btn3"></div>
             <div class="auto-btn4"></div>
+            <div class="auto-btn5"></div>
          </div>
 
         </div>
@@ -89,18 +103,15 @@
         <label for="radio2" class="manual-btn"></label>
         <label for="radio3" class="manual-btn"></label>
         <label for="radio4" class="manual-btn"></label>
+        <label for="radio5" class="manual-btn"></label>
       </div>
 
           
         </div>
          
       </section>
-      <section class="about" id="about">
-        <h1>ABOUT US</h1>
-         <p>Redfox Nests is 12 years old! This real estate company has been running </p>
-    
-        </section>
      
+<!--      
    <section class="listings">
      <h1>LISTINGS</h1>
         <div class="grid-con">
@@ -189,7 +200,7 @@
             
         </div>
       
-   </section>
+   </section> -->
    <section class="agents">
     <div class="agent-One">
         <h1>MEET NATHAN</h1>
@@ -212,7 +223,11 @@
      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAFT0lEQVR4nO2aTYgcRRTHfzGjDnjYGIkXdxccQRF1BhJxoyuSEXMWzLqYQ06CYASDIOTgwfWmIIhhXdCDXkRNNqIXT4o7qEH8TsKuuMEoZBMPJuu6KmhwN+PhvXZqeqr6o7p7ZtjMH4qufl39qrr61b/qvSoYYIAseAFYBR7sdUMc2AJ8DywAQ0VU8BPQBF4vQnkOuA9pX1PzHbgiYwWbQtd+w5qR/zcvpc8DPwKnVWkT+EPvfwAm8qrIE1uAOnAvUAamNZVVVtcy3lilZVa29H4W5TlgwWjLtCGfMeTzgdBnCOwDXtP0p8pO6f0M8IyHzgBxpPUE8Bew30N305G3ooR8zCuad+FnVfaGR4NsiCOto/rsSISOIcTMxxGzD76jrLI6CWaEHUZDtkeUW9Qyr8YpTIhdRr27LM9vAJ7SaxLcY+i7O01DSrTII8oCJpAxf1uEnjtjdJiI64C0iJ0Gi0ZAPNNxBRV5d8AQwifzOMw+6Z/xRSzZFIxV3NbZFZQQDunVEIhFFgsoA48CXwNfOMqsAd9G6HgYqBj3Zn4vMGbcn0Zmga5hVJMLTyJ/6oKn/irRCypbusOzLidcFjCKTHEANwNLljJb9XqdZ91b44t0wLcuJ1wrwQpi4mXgprwrtaCOOFS2VM+gN9YddlnAb0Z+OUMDeo1h4FYjvxouYHbAGMK868A7CEE1gRXgaWAz0MBNeP2IeVrfsWArYHbAB7TG2Ji+CMK8ezR/AdiWogElYCcylMKoGflHgLscOsyZYQedVnseOBHRhsQzx1vI378IPG7I96tsHXjTkE/RYmcXTBe0yBT8rNyQJJaWpAPm6E4HTHl9JW4SrNIijxrwiW8FihMIj4SxDRhJqGMJMXcTH2ZpFLg7IO9Y2grwUQ56coerA75EgggAXxVQ507gSuA74HfjWQ2xilPAGUM+iizI4givq0jDAXOGzBqbAyYN+d+0hsao3tsILzMHZA2L+8AVm0sas7M9e5ZokixkY8TXAkq4Y3NV4AE6iXFE5dWQPM1MYY0IJXGHh5GFyuaQfNzIH3S8G3iTVxuyNeCYo/xJh3wJu0MW4BjwmaP+vZr3tvZ3yT5P/2roK+HeoKghfzrsho+qvBaSx3FALgGWPBYzi4a+bpJgbAekMYsGbpfVlRr67i+hRqfJhxH1LDWKDoracADxO66iPVw2i5j49YjFBGP+DLIGuAUZSi6e8IJvBwwjJnsEOBshs6EIEvSGbwe8DDyE7LxMRMhcdfbNStC3A2zxwKQxwkO03O0F4HbNTwKHNf8PrVhkEJ8sG+VmvVptwUZZCXrD1wKCmOFyjMyGIkhwH+0LswDXGvkXEa8U4D1kOm472hLEBMN4DAlLfY6Mb5Dd2YDwzkXI5lRng2zRXRd8reEiOqTMDlgmOlZ/Hvk7aWDrgDxJMOiAFeAbS/2b9D1U5420Yowd55rSrOaSolvucINk6HDgbCT4HPGrOdtRlaTHV/qKBH1ngT3ANbTP9zaZDQcQZ+h+vQYISHA3QnhhEtytz3PdIPWdBWznA5OeGdwQK8Fm6OqSuersm5Wg7xA4ioz32RiZDYeAT4GPaQ9iTALHkVD3Iu0kuKjy4+S8CeJrATOa4mQ29BUJDtxhz/cG7jADdxgYuMNe2BAk2G/ucJVkO8WVqIeuELPNobEdWrbJbO/miSyhesDfAs4BLyWQdQsudziMCiEr6MU6oAicRJylOEwhG6n/oxck2Fe47DvANgTGad/tDTYqq8i5/zQrsuDdCu4d5DwwklB/R+DU9N3XuXws4hK63W9+8GF9sNFxCXi7140YoF/wH+CSQ2Zto5HYAAAAAElFTkSuQmCC">
      <h2>Apartments in top cities</h2>  
      <p>We find listings in all top cities!</p>
-     <button>Click</button>
+     <div class="btn-btn">
+      <button>Click</button>
+     </div>
+     
+     
  </div>
  <div class="item">
      <img src="https://img.icons8.com/carbon-copy/100/000000/person-male.png"/>
@@ -241,6 +256,7 @@
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAFB0lEQVRoge2ZW2yURRTHf0VKKKY1oETpthYLLYSIWLUJRhFfTCQEotHEGOWiIfJAQB8AfTDRxEeNGmMMpqKsiKapgkZJVKypSuIFL4gPiNEHxKhYK9Cbbe3u+nDOONP1++b79tZFs/9k8u3O/M/MmcuZM3MGKqjgP48LgJ3Az8Av+vtCD/964H1gEBgAuoGVJdYxEucB3wKZrPQdUB/AfzCAa9Ijk6BvKJ5SJQ4BjUAz8IXmHQUaHO5qIA2MAFuBOZq2aV6GMs1MHTAEpIBFTv4s4HNEsd+Ae4EW4KDmbQ2oa7uWdZdQ31Dcqo1/HFBWC3QSvITmBPDrtaw/u2BKkZT1Yal+DwaUDQC3Adcgxv8NsqzOSuxHRvGWmPxu5W8LKLufMi6tT7XxpVFExY1YY9+OLKd6pBOjlNHYv9fGW3KQeQDpzFm1/fapArNylFsGvIfYUaRDrMpXuyycC1wBtANtiK+Y7SSQDp0EeoGfgK+Az4Avke25bDgf2AAcAMYJ98RR6S+tYwO5z5oXC4Ak4qQyyCjuAlq1vEX/jznKjANfAzuA9cByYDGQAGo0JTRvOXAX8KzKuIMwBryAtSejy0ms40w6uoRiFTLNpuJR5/cg8LrTcBpZt3cgji1f1AJ3IgdEY+Dj2pZPl1VhFS50BDuxozIXGTl31B4HLilA+TA0A08wcbYPqw4gM2FOAoOEzMyLStjj5FUjy8VU+g7S4VJjIfCu0+4zwFSn/GXN3xUk3KuFZqSnAfs0bwhYUxKV/ViDXSWvqU4A87H2OwHnaMEIsiVXAbuxBtZWcpXDcSV2kJOaV4UsvzQB50VDngfcp79PAZdOgrJRWAycRnTagp2RX4PISS18G5nONHLuCUMD0IUcqfuRqc/lGJKr/ErVaQix1QzwfBCxFdkJjIF1RCjR53BN6kP8RZxO5CO/0+EOIjMTiHVKGib4YmPQpbw3teEE8BZ2645CvvIJ4E/lrfM1sFFJuyMU6VeeO3qNmnc6QrZQ+VeUt9HNzLb4Ffp9I6KyjH7zPXQWIr9Pvyt8pGPayFwfCTHMDLIcGjSZm2BXDGUKkW9W3jEfyUx5TURlrcDvBBtrqAEWSb6GkACEi2HidQRkfXcCZzR1xVCiGPKmI8M+0gniLa1ywiyt425mtrEf0W/7ZGiUJ4xuR9zM7I706PemkquTP27Wb4+P1IiENocJDi6XClOBmTF4DcjBdpwYJ4g9yBp8LoI3DQn17Aemx1AiDNOBD5AzlO80AXINzgAvxal4PjIjafyBsGrgB2yUvSlO5VloUtmM1jXDw12NvRvNi9uAOcafAS7z8BYAP2L39YeIHlWU8zDWbx3HH1BY4nC3xKj/H7gXq17kchOG2cBeJoZ3PgQeBTYBt2vaBDwGfKQcw9+LjX0FoR3rPJMeXiiyr7prI/jXAa8yMdoRlkYQB7gsos61WCftXnX/hahDWzXwNHCP/j+APMgc9cjUAVcDVyFLyATd/kDeDg8Bn+A/YiwCngRu0P87gM3IblUQ1mOvmmPaSC7HkbhoQZ7pTDjoFBH3jnyQQMIwKWyArgeJdNQVUG8dsoR6sAG6FLLFltSXXY74GtcWUshrUwdwN/IC1YQ4uSmaZmretcrpUJmUU8+odmBJKTuQjYuQrTB7F8o1mV1uM/53dy+K9axQi4x0G+J3LtY0A3ljB/FJQ4jfOYGEYQ8jb4sDRdKjggoq+L/jb6tU1BBahXOaAAAAAElFTkSuQmCC">
     </div>
    <span class="btm">REDFOX NESTS™️</span>
+
 </footer>
    <script  type="text/javascript" src="js/main.js"></script>
 </body>

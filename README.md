@@ -10,7 +10,7 @@ Front-End Website of a Real Estate Website consist of the following:
 6. Find us footer section with social media link icons
 
 
-Programming Languages used:
+# Programming Languages used:
 
 1. Javascript
    Used for the scroll feature

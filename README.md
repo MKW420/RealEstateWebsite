@@ -24,7 +24,7 @@ Mark-up Languages:
    Styling sections
 
 
-#Pictures
+# Pictures
 
 
 Desktop features
